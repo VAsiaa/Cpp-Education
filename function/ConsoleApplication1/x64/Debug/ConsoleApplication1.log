@@ -1,0 +1,20 @@
+﻿  ConsoleApplication1.cpp
+E:\VisualStudio2022\Community\VC\Tools\MSVC\14.37.32822\include\numbers(12): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+E:\VisualStudio2022\Community\VC\Tools\MSVC\14.37.32822\include\string_view(13): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(12,22): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(74,85): error C2039: "string_view": не является членом "std".
+E:\VisualStudio2022\Community\VC\Tools\MSVC\14.37.32822\include\string(24,1): message : см. объявление "std"
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(74,85): error C2061: синтаксическая ошибка: идентификатор "string_view"
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(75,16): warning C4566: символ, представленный универсальным именем символа "\u222B", невозможно представить в текущей кодовой странице (1251)
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(77,13): warning C4566: символ, представленный универсальным именем символа "\u2192", невозможно представить в текущей кодовой странице (1251)
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(80,13): error C2065: function_name: необъявленный идентификатор
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(88,40): error C3083: numbers: символ слева от "::" должен представлять тип
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(88,49): error C2039: "pi": не является членом "std".
+E:\VisualStudio2022\Community\VC\Tools\MSVC\14.37.32822\include\string(24,1): message : см. объявление "std"
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(88,49): error C2065: pi: необъявленный идентификатор
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(88,33): error C2131: выражение не определяется константой
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(88,33): message : обнаружено неконстантное (под)выражение
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(93,24): error C2660: setm::math::integralFormula: функция не принимает 3 аргументов
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(74,24): message : см. объявление "setm::math::integralFormula"
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(93,24): message : при попытке сопоставить список аргументов "(const double, const double, const char [4])"
+D:\Git\Cpp-Education\function\ConsoleApplication1\ConsoleApplication1.cpp(93,9): error C2088: <<: недопустимо для class
